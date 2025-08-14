@@ -118,10 +118,8 @@ class Messages:
 
 Hello {user_mention}! I'm your secure file sharing assistant!
 
-📢 Join @Thealphabotz for updates!
-👨‍💻 Contact @adarsh2626 for support
+👨‍💻 Contact @Velmora001 for support
 
-Use /help to see available commands!
 """
 
     HELP_TEXT = """
@@ -132,7 +130,7 @@ Use /help to see available commands!
 • `/help` - Show this menu  
 • `/about` - Bot details  
 • `/short [url]` - Shorten a link (e.g., `/short example.com`)  
-/repo 
+
 
 👑 **Admin Commands:**  
 • `/upload` - Upload a file (reply to a file)  
@@ -150,24 +148,11 @@ Use /help to see available commands!
 • Forward files & reply with `/batch`.  
 
 
-🛠 **Open Source:**  
-🔗 [GitHub](https://github.com/utkarshdubey2008/alphashare)  
-
-⚠️ **Need Help?** Contact [AlphaBotz](https://t.me/alphabotzchat)  
 """
 
     ABOUT_TEXT = """
-ℹ️ 𝙰𝚋𝚘𝚞𝚝 {bot_name}
-
-𝚅𝚎𝚛𝚜𝚒𝚘𝚗: {version}
-𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛: @Alphabotzchat 
-𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎: 𝙿𝚢𝚝𝚑𝚘𝚗
-𝙵𝚛𝚊𝚖𝚎𝚠𝚘𝚛𝚔: 𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖
-
-📢 𝚄𝚙𝚍𝚊𝚝𝚎𝚜: @TheAlphaBotz
-🛠 𝚂𝚞𝚙𝚙𝚘𝚛𝚝: @AlphaBotzChat
-
-use /repo to know more info
+Hlw
+I am powered by @Anime_Nexuus
 """
 
     FILE_TEXT = """
@@ -199,8 +184,8 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK},
-                {"text": "Developer 👨‍💻", "url": DEVELOPER_LINK}
+                {"text": "Channel 📢", "https://t.me/+i-N9IMDJh9YwY2Vl": CHANNEL_LINK},
+                {"text": "Developer 👨‍💻", "https://t.me/Velomra001": DEVELOPER_LINK}
             ]
         ]
 
@@ -211,7 +196,7 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/+i-N9IMDJh9YwY2Vl": CHANNEL_LINK}
             ]
         ]
 
@@ -222,7 +207,7 @@ class Buttons:
                 {"text": "Help 📚", "callback_data": "help"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/+i-N9IMDJh9YwY2Vl": CHANNEL_LINK}
             ]
         ]
 
@@ -233,7 +218,7 @@ class Buttons:
                 {"text": "Share 🔗", "callback_data": f"share_{file_uuid}"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/+i-N9IMDJh9YwY2Vl": CHANNEL_LINK}
             ]
         ]
 
